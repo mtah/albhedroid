@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Albhedroid</string>
+  <string name="enter_phrase">Enter a phrase</string>
+  <string name="english_to_albhed">English to Al Bhed</string>
+  <string name="albhed_to_english">Al Bhed to English</string>
+  <string name="go">Go!</string>
+  <string name="result">Result</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <EditText android:id="@+id/input_string"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="top|left" 
+    android:lines="10"
+    android:hint="@string/enter_phrase" />
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+	  <RadioGroup android:id="@+id/cipher_modes"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:orientation="vertical">
+	    <RadioButton android:id="@+id/english_to_albhed"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="@string/english_to_albhed" />
+		  <RadioButton android:id="@+id/albhed_to_english"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:text="@string/albhed_to_english" />
+	  </RadioGroup>
+	  <LinearLayout
+	    android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:layout_weight="1"
+		  android:gravity="center">
+		  <Button android:id="@+id/cipher_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/go" />
+	  </LinearLayout>
+	</LinearLayout>
+  <EditText android:id="@+id/output_string"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:editable="false"
+    android:gravity="top|left" 
+    android:lines="10"
+    android:hint="@string/result" />
+</LinearLayout>
