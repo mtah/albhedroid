@@ -1,4 +1,3 @@
-<img src="http://farm4.static.flickr.com/3461/3404942508_538a850046_o.png" alt="Screenshot" style="float: right; margin: 1em 2em;" />
 Introduction
 --------------
 Albhedroid is a simple substitution cipherer for Google Android, 
@@ -17,3 +16,7 @@ click go. If you want some parts of the text to be ignored by
 the cipherer, enclose it in curly brackets ("{}"). Just make 
 sure that they are correctly matched and not nested, or 
 otherwise the cipherer will get angry.
+
+Screenshot
+--------------
+![Screenshot](http://farm4.static.flickr.com/3461/3404942508_538a850046_o.png)
